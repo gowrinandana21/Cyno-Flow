@@ -1,4 +1,5 @@
 # 🚀 Cyno-Flow: AI Campaign Engine
+Author : Gowri Nandana
 
 
 Cyno-Flow is a streamlined AI-powered marketing tool built with **Streamlit** and **Python**. It transforms simple product ideas into coordinated multi-channel marketing campaigns (LinkedIn, Twitter, and Email) in seconds.
@@ -40,6 +41,6 @@ agents.py: Contains the logic and AI functions for content generation.
 
 .gitignore: Prevents unnecessary files (like .venv or .env) from being uploaded.
 
-👨‍💻 Author
 
-Gowri Nandana
+
+
