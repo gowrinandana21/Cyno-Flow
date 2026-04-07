@@ -1,46 +1,91 @@
-# 🚀 Cyno-Flow: AI Campaign Engine
-Author : Gowri Nandana
+Cyno-Flow: AI-Powered Campaign Engine
+
+Cyno-Flow is a rapid autonomous marketing suite designed to turn product ideas into high-converting copy in seconds. Built for the Cymonic.ai Hackathon, this tool leverages the power of Large Language Models to bridge the gap between product conception and market launch.
+
+Gemini said
+To get a top-tier evaluation score, your README.md needs to look professional, be easy to scan, and clearly communicate the value of your project.
++1
+
+Below is a high-effort, "Pro-Developer" version of the README. Copy and paste this into your README.md file in VS Code, save it, and push it to GitHub.
+
+🚀 Cyno-Flow: AI-Powered Campaign Engine
+Cyno-Flow is a rapid autonomous marketing suite designed to turn product ideas into high-converting copy in seconds. Built for the Cymonic.ai Hackathon, this tool leverages the power of Large Language Models to bridge the gap between product conception and market launch.
++1
+
+📑 Table of Contents
+The Problem
+
+The Solution
+
+Key Features
+
+Tech Stack
+
+Setup Instructions
+
+❓ The Problem
+Small business owners and startup founders often face "blank page syndrome" when trying to market their products. Creating consistent, high-quality content across LinkedIn, Twitter, and Email is time-consuming and expensive, often delaying actual product launches by weeks.
+
+💡 The Solution
+Cyno-Flow addresses this by providing an instant "Marketing Department in a Box." By entering a simple product description, users receive a coordinated three-channel campaign. The application is built with a robust error-handling architecture, ensuring that even during third-party API instability, the user experience remains seamless through smart fallback generators.
++1
+
+✨ Key Features
+
+Multi-Channel Generation: Instant copy for LinkedIn, Twitter hooks, and professional Email outreach.
 
 
-Cyno-Flow is a streamlined AI-powered marketing tool built with **Streamlit** and **Python**. It transforms simple product ideas into coordinated multi-channel marketing campaigns (LinkedIn, Twitter, and Email) in seconds.
+Clean UX: A dark-themed, minimalist Streamlit interface designed for focus.
 
----
+One-Click Export: Download your entire generated strategy as a .txt file for immediate use.
 
-## ✨ Features
+Fault-Tolerant Logic: Integrated fallback mechanisms to provide demo content if API limits are reached.
 
-* **Instant Campaign Generation:** Turn a single sentence into a full marketing suite.
-* **Multi-Channel Strategy:** Automatically drafts content tailored for LinkedIn, X (Twitter), and Email.
-* **AI Logic Engine:** Powered by a modular `agents.py` backend for easy scaling.
-* **Real-time UI:** Built on Streamlit for a fast, interactive experience.
+🛠️ Tech Stack
 
-## 🛠️ Tech Stack
-
-* **Frontend:** [Streamlit](https://streamlit.io/)
-* **Language:** Python 3.11+
-* **Version Control:** Git & GitHub
-
-## 🚀 Getting Started
+Language: Python 3.11 
 
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/gowrinandana21/Cyno-Flow.git](https://github.com/gowrinandana21/Cyno-Flow.git)
-cd Cyno-Flow
-2. Install dependencies
+Frontend Framework: Streamlit 
+
+
+AI Model: Google Gemini 1.5 Flash (via REST API) 
+
+Environment Management: Python-Dotenv
+
+
+Version Control: Git & GitHub 
+
+⚙️ Setup Instructions
+Follow these steps to run Cyno-Flow on your local machine:
+
+1. Clone the Repository
 Bash
-pip install streamlit
-3. Run the application
+git clone https://github.com/gowrinandana21/Cyno-Flow.git
+cd Cyno-Flow
+2. Install Dependencies
+Ensure you have Python installed, then run:
+
+Bash
+pip install streamlit requests python-dotenv google-generativeai
+3. Configure Environment Variables
+Create a .env file in the root directory and add your Gemini API Key:
+
+Plaintext
+GEMINI_API_KEY=your_api_key_here
+4. Run the Application
+Start the Streamlit server:
+
 Bash
 streamlit run app.py
+🎥 Video Demo
+A full walkthrough of the application, including the user flow and key features, can be found here:
+## 🔗 Project Links
+**GitHub Repository:** [https://github.com/gowrinandana21/Cyno-Flow](https://github.com/gowrinandana21/Cyno-Flow) 
+**Video Demo:** [Paste your Loom/YouTube link here] [cite: 29]
+**Live Demo (Optional):** [Paste hosted link if applicable] [cite: 35]
 
-📂 Project Structure
-
-app.py: The main UI and entry point for the application.
-
-agents.py: Contains the logic and AI functions for content generation.
-
-.gitignore: Prevents unnecessary files (like .venv or .env) from being uploaded.
-
-
+Developed by: Gowri Nandana
 
 
+Project for: Cymonic.ai Hackathon 2026
