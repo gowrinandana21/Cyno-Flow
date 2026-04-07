@@ -94,6 +94,8 @@ A full walkthrough of the application, including the user flow and key features,
 
 Project link: http://localhost:8501/
 
+              http://10.218.252.89:8501
+
 
 Developed by: Gowri Nandana
 
