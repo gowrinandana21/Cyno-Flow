@@ -89,6 +89,7 @@ streamlit run app.py
 A full walkthrough of the application, including the user flow and key features, can be found here:
 ## 🔗 Project Links
 **GitHub Repository:** [https://github.com/gowrinandana21/Cyno-Flow](https://github.com/gowrinandana21/Cyno-Flow) 
+
 **Video Demo:** https://www.loom.com/share/8ed8fed9b1fa4fc69548c91f49191429
 
 
