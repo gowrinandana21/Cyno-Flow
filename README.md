@@ -1,12 +1,3 @@
-Cyno-Flow: AI-Powered Campaign Engine
-
-Cyno-Flow is a rapid autonomous marketing suite designed to turn product ideas into high-converting copy in seconds. Built for the Cymonic.ai Hackathon, this tool leverages the power of Large Language Models to bridge the gap between product conception and market launch.
-
-Gemini said
-To get a top-tier evaluation score, your README.md needs to look professional, be easy to scan, and clearly communicate the value of your project.
-+1
-
-Below is a high-effort, "Pro-Developer" version of the README. Copy and paste this into your README.md file in VS Code, save it, and push it to GitHub.
 
 🚀 Cyno-Flow: AI-Powered Campaign Engine
 Cyno-Flow is a rapid autonomous marketing suite designed to turn product ideas into high-converting copy in seconds. Built for the Cymonic.ai Hackathon, this tool leverages the power of Large Language Models to bridge the gap between product conception and market launch.
@@ -82,8 +73,8 @@ streamlit run app.py
 A full walkthrough of the application, including the user flow and key features, can be found here:
 ## 🔗 Project Links
 **GitHub Repository:** [https://github.com/gowrinandana21/Cyno-Flow](https://github.com/gowrinandana21/Cyno-Flow) 
-**Video Demo:** [Paste your Loom/YouTube link here] [cite: 29]
-**Live Demo (Optional):** [Paste hosted link if applicable] [cite: 35]
+**Video Demo:** https://www.loom.com/share/8ed8fed9b1fa4fc69548c91f49191429
+
 
 Developed by: Gowri Nandana
 
