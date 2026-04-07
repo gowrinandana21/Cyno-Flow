@@ -92,6 +92,8 @@ A full walkthrough of the application, including the user flow and key features,
 
 **Video Demo:** https://www.loom.com/share/8ed8fed9b1fa4fc69548c91f49191429
 
+Project link: http://localhost:8501/
+
 
 Developed by: Gowri Nandana
 
