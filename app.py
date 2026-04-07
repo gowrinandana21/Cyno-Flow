@@ -1,31 +1,42 @@
 import streamlit as st
-import time
-from agents import improve_text # This imports your "brain"
+from agents import generate_campaign
 
-st.set_page_config(page_title="Cyno-Flow", layout="wide")
+# Professional Page Setup
+st.set_page_config(page_title="Cyno-Flow AI", page_icon="🚀", layout="wide")
 
-st.header("Cyno-Flow: Campaign Engine")
+# Sidebar for Branding
+with st.sidebar:
+    st.title("⚙️ Engine Settings")
+    st.info("Model: Gemini 1.5 Flash")
+    st.markdown("---")
+    st.write("Developed by: **Gowri Nandana**")
 
-# 1. User Input
-user_input = st.text_area("What is your draft campaign message?", "Buy our cool new shoes!")
+st.title("🚀 Cyno-Flow: Campaign Engine")
+st.write("Turn your business idea into a full marketing strategy instantly.")
 
-col1, col2 = st.columns(2)
+# User Input
+user_input = st.text_area("Enter your product or brand description:", 
+                          placeholder="e.g., A subscription box for organic tea...")
 
-# 2. The Logic
-if st.button("Generate Coordinated Campaign"):
-    with st.status("AI is thinking...") as status:
-        st.write("Analyzing tone...")
-        time.sleep(1)
+# Action Button
+if st.button("🔥 Generate Full Campaign", use_container_width=True):
+    if user_input:
+        with st.status("🤖 AI Agents are strategizing...", expanded=True) as status:
+            # Calling the brain
+            result = generate_campaign(user_input)
+            status.update(label="Strategy Complete!", state="complete", expanded=False)
         
-        # This is where the magic happens!
-        result = improve_text(user_input)
+        st.divider()
         
-        status.update(label="Campaign Ready!", state="complete")
-
-    with col1:
-        st.subheader("Original Input")
-        st.info(user_input)
-
-    with col2:
-        st.subheader("AI Generated Content")
-        st.success(result)
+        # Check if there was an error
+        if "Error:" in result:
+            st.error(result)
+        else:
+            st.success("Campaign Ready!")
+            st.markdown(result)
+            
+            # Professional Download Button
+            st.download_button("📩 Download Strategy", result, file_name="cyno_flow_strategy.txt")
+    else:
+        st.warning("Please enter a description first!")
+        
