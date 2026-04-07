@@ -1,9 +1,13 @@
 
 🚀 Cyno-Flow: AI-Powered Campaign Engine
+
+
 Cyno-Flow is a rapid autonomous marketing suite designed to turn product ideas into high-converting copy in seconds. Built for the Cymonic.ai Hackathon, this tool leverages the power of Large Language Models to bridge the gap between product conception and market launch.
 +1
 
 📑 Table of Contents
+
+
 The Problem
 
 The Solution
@@ -15,9 +19,13 @@ Tech Stack
 Setup Instructions
 
 ❓ The Problem
+
+
 Small business owners and startup founders often face "blank page syndrome" when trying to market their products. Creating consistent, high-quality content across LinkedIn, Twitter, and Email is time-consuming and expensive, often delaying actual product launches by weeks.
 
 💡 The Solution
+
+
 Cyno-Flow addresses this by providing an instant "Marketing Department in a Box." By entering a simple product description, users receive a coordinated three-channel campaign. The application is built with a robust error-handling architecture, ensuring that even during third-party API instability, the user experience remains seamless through smart fallback generators.
 +1
 
@@ -48,13 +56,17 @@ Environment Management: Python-Dotenv
 Version Control: Git & GitHub 
 
 ⚙️ Setup Instructions
+
+
 Follow these steps to run Cyno-Flow on your local machine:
 
 1. Clone the Repository
+
+
 Bash
 git clone https://github.com/gowrinandana21/Cyno-Flow.git
 cd Cyno-Flow
-2. Install Dependencies
+3. Install Dependencies
 Ensure you have Python installed, then run:
 
 Bash
@@ -69,7 +81,11 @@ Start the Streamlit server:
 
 Bash
 streamlit run app.py
+
+
 🎥 Video Demo
+
+
 A full walkthrough of the application, including the user flow and key features, can be found here:
 ## 🔗 Project Links
 **GitHub Repository:** [https://github.com/gowrinandana21/Cyno-Flow](https://github.com/gowrinandana21/Cyno-Flow) 
